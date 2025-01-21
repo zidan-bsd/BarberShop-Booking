@@ -1,0 +1,32 @@
+$clr-base-wt: #ffedfa;
+$clr-base-gr: #666666;
+
+$clr-primary: #050505;
+$clr-primary-lt: lighten($clr-primary, 5%);
+$clr-primary-dk: darken($clr-primary, 5%);
+
+$clr-accent-gray: #202020;
+$clr-accent-gray-lt: #767676;
+$clr-accent-green: #0a390f;
+$clr-accent-orange: #d9ac52;
+
+$fs-h1: 36px;
+$fs-h2: 32px;
+$fs-h3: 28px;
+$fs-h4: 24px;
+$fs-h5: 20px;
+$fs-h6: 18px;
+
+$fs-milli: 14px;
+$fs-micro: 12px;
+
+$r-8px: 8px;
+
+$solid-2px-green: 2px solid $clr-accent-green;
+$solid-1px-gray-lt: 1px solid $clr-accent-gray-lt;
+$border-container: 1px solid $clr-accent-gray;
+$border-input-active: 1px solid $clr-base-wt;
+
+$layout-width-1024px: 1024px;
+$layout-width-768px: 768px;
+$layout-width-620px: 620px;

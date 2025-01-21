@@ -1,0 +1,19 @@
+@import "../../styles/Global";
+
+.container-footer {
+  border: $border-container;
+  border-radius: $r-8px;
+  display: flex;
+  justify-content: center;
+  color: $clr-base-gr;
+  font-size: $fs-milli;
+  background-color: $clr-primary-lt;
+  padding: 8px 0;
+  margin-top: 15px;
+  text-align: center;
+
+  @media (max-width: $layout-width-768px) {
+    border-radius: 0px;
+    margin-bottom: 20px;
+  }
+}

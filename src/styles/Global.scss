@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import "variables";
+
+$font-family-primary: "Inter",
+serif;
+$font-family-secondary: "Bebas Neue",
+serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-primary;
+  color: $clr-base-wt;
+  background-color: $clr-primary;
+  padding: 10px 30px;
+
+  @media (max-width: $layout-width-1024px) {
+    padding: 10px 10px;
+  }
+
+  @media (max-width: $layout-width-768px) {
+    padding: 0;
+  }
+}
+
+h1 {
+  font-size: $fs-h1;
+}
+
+h2 {
+  font-size: $fs-h2;
+}
+
+h3 {
+  font-size: $fs-h3;
+}
+
+h4 {
+  font-size: $fs-h4;
+}
+
+h5 {
+  font-size: $fs-h5;
+}
+
+h6 {
+  font-size: $fs-h6;
+}
+
+a {
+  text-decoration: none;
+  color: $clr-base-wt;
+}
